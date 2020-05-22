@@ -14,14 +14,17 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "next": "^9.3.2",
+    "babel-plugin-styled-components": "^1.10.7",
+    "next": "^9.4.2",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.34",
     "@types/react": "^16.9.29",
-    "typescript": "^3.8.3"
+    "@types/styled-components": "^5.1.0",
+    "typescript": "^3.9.3"
   }
 }

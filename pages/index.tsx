@@ -4,6 +4,8 @@ import { IProduct } from "../components/Product";
 import Footer from "../components/Footer";
 import Head from "next/head";
 
+import styled from "styled-components";
+
 import "../styles.scss";
 
 interface IIndexProps {
@@ -54,7 +56,7 @@ Index.getInitialProps = async () => {
         price: 25.0,
         image: "../static/halfmoon.jpg",
         description:
-          "The Halfmoon betta is arguably one of the prettiest betta species. It is recognized by its large tail that can flare up to 180 degrees."
+          "The Halfmoon betta is arguably one of the prettiest betta species. It is recognized by its large tail that can flare up to 180 degrees.",
       } as IProduct,
 
       {
@@ -63,7 +65,7 @@ Index.getInitialProps = async () => {
         price: 35,
         image: "../static/dragonscale.jpg",
         description:
-          "The dragon scale betta is a rarer and higher maintenance fish. It is named by its thick white scales covering his sides that looks like dragon scale armor."
+          "The dragon scale betta is a rarer and higher maintenance fish. It is named by its thick white scales covering his sides that looks like dragon scale armor.",
       } as IProduct,
       {
         id: "nextjs_crowntail",
@@ -71,7 +73,7 @@ Index.getInitialProps = async () => {
         price: 7.5,
         image: "../static/crowntail.jpg",
         description:
-          "The crowntail is pretty common, but interesting none the less. It's recognized by the shape of its tail that has an appearance of a comb."
+          "The crowntail is pretty common, but interesting none the less. It's recognized by the shape of its tail that has an appearance of a comb.",
       } as IProduct,
       {
         id: "nextjs_veiltail",
@@ -79,9 +81,9 @@ Index.getInitialProps = async () => {
         price: 5.0,
         image: "../static/veiltail.jpg",
         description:
-          "By far the most common betta fish. You can recognize it by its long tail aiming downwards."
-      } as IProduct
-    ]
+          "By far the most common betta fish. You can recognize it by its long tail aiming downwards.",
+      } as IProduct,
+    ],
   };
 };
 
