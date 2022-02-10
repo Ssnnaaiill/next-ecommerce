@@ -16,7 +16,7 @@
     "@zeit/next-sass": "^1.0.1",
     "babel-plugin-styled-components": "^1.10.7",
     "next": "^9.4.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.0"
